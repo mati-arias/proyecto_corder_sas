@@ -20,6 +20,17 @@ header {
     }
 }
 
+
+.h1Client {
+
+    width: 300px;
+    height: auto;
+    font-size: 250%;
+    color: $color-secudario;
+    text-align: center;
+
+}
+
 .hambur {
     font-size: small;
 
@@ -187,18 +198,41 @@ nav {
     padding-left: 5%;
 }
 
+
+
 .mainContact {
     background-color: $color-secudario;
     height: auto;
     width: 100%;
+   div {
+        h1 {
+            font-size: 210%;
+            display: flex;
+            flex-wrap: wrap;
+            color: $color-primario;
+        }
+    }
 }
 
-.mainContact {
+.h1Productos {
+
     h1 {
-        font-size: 210%;
-        display: flex;
-        flex-wrap: wrap;
+        color: $color-secudario;
+        font-size: 230%;
+        text-align: center;
     }
+}
+
+div{
+    div{
+        div{
+    
+.indCar{
+    width: 50%;
+   margin-left: 26%;
+}
+    }
+}
 }
 
 .productTable {
@@ -241,6 +275,7 @@ main {
 
 
 
+
 div {
     label {
         font-family: $fuente-personalizada;
@@ -254,8 +289,14 @@ h1 {
     font-size: 10%;
     padding: 1%;
     margin: 0;
-    color: $color-primario;
 
+
+}
+
+.h1Index {
+    text-align: center;
+    color: $color-secudario;
+    font-size: 400px;
 }
 
 

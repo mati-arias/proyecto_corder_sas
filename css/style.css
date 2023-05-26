@@ -14,6 +14,14 @@ header nav {
   text-align: center;
 }
 
+.h1Client {
+  width: 300px;
+  height: auto;
+  font-size: 250%;
+  color: #fef8e2;
+  text-align: center;
+}
+
 .hambur {
   font-size: small;
 }
@@ -146,11 +154,22 @@ nav a:hover {
   height: auto;
   width: 100%;
 }
-
-.mainContact h1 {
+.mainContact div h1 {
   font-size: 210%;
   display: flex;
   flex-wrap: wrap;
+  color: #890500;
+}
+
+.h1Productos h1 {
+  color: #fef8e2;
+  font-size: 230%;
+  text-align: center;
+}
+
+div div div .indCar {
+  width: 50%;
+  margin-left: 26%;
 }
 
 .productTable {
@@ -197,7 +216,12 @@ h1 {
   font-size: 10%;
   padding: 1%;
   margin: 0;
-  color: #890500;
+}
+
+.h1Index {
+  text-align: center;
+  color: #fef8e2;
+  font-size: 400px;
 }
 
 .nosotrosP {
