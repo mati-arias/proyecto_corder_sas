@@ -102,7 +102,7 @@ section {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     background-color: $color-secudario;
-    border: solid ,$color-primario;
+    border: solid, $color-primario;
 
 
 
@@ -151,9 +151,10 @@ nav {
     }
 }
 
-nav { a:hover {
-    text-decoration: underline;
-}
+nav {
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
 
@@ -165,19 +166,19 @@ nav { a:hover {
 
 }
 
-.products{
-     img {
-    object-fit: cover;
-    height: auto;
-    width: 100%;
-}
+.products {
+    img {
+        object-fit: cover;
+        height: auto;
+        width: 100%;
+    }
 }
 
 .products {
-     p {
-    color: $color-secudario;
-    font-size: 100%;
-}
+    p {
+        color: $color-secudario;
+        font-size: 100%;
+    }
 }
 
 .maps {
@@ -192,11 +193,12 @@ nav { a:hover {
     width: 100%;
 }
 
-.mainContact{ h1 {
-    font-size: 210%;
-    display: flex;
-    flex-wrap: wrap;
-}
+.mainContact {
+    h1 {
+        font-size: 210%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .productTable {
@@ -220,7 +222,7 @@ nav { a:hover {
     min-height: 80px;
     height: auto;
     float: left;
-    border: $color-primario ,solid;
+    border: $color-primario , solid;
     border-radius: 100%;
     padding: 10px;
     background-color: $color-secudario;
@@ -239,9 +241,10 @@ main {
 
 
 
-div{ label {
-    font-family: $fuente-personalizada;
-}
+div {
+    label {
+        font-family: $fuente-personalizada;
+    }
 }
 
 
@@ -314,52 +317,52 @@ footer {
 
 .container {
     .btn {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 50px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 50px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .container {
     .btn {
         a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 30px;
-    padding: 10px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    overflow: hidden;
-    color: #fff;
-    font-weight: 400px;
-    z-index: 1;
-    transition: 0.5s;
-    backdrop-filter: blur(15px);
-}
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 30px;
+            padding: 10px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            overflow: hidden;
+            color: #fff;
+            font-weight: 400px;
+            z-index: 1;
+            transition: 0.5s;
+            backdrop-filter: blur(15px);
+        }
     }
 }
 
 .container .btn:hover a {
     letter-spacing: 3px;
-  }
-  
-  .container .btn a::before {
+}
+
+.container .btn a::before {
     content: "";
     position: absolute;
     top: 0;
@@ -370,14 +373,14 @@ footer {
     transform: skewx(45deg) translate(0);
     transition: 0.5s;
     filter: blur(0px);
-  }
-  
-  .container .btn:hover a::before {
+}
+
+.container .btn:hover a::before {
     transform: skewx(45deg) translate(200px);
-  
-  }
-  
-  .container .btn::before {
+
+}
+
+.container .btn::before {
     content: "";
     position: absolute;
     left: 50%;
@@ -389,17 +392,17 @@ footer {
     border-radius: 10px;
     transition: 0.5s;
     transition-delay: 0.5;
-  }
-  
-  .container .btn:hover::before {
+}
+
+.container .btn:hover::before {
     bottom: 0;
     height: 50%;
     width: 80%;
     border-radius: 30px;
-    
-  }
-  
-  .container .btn::after {
+
+}
+
+.container .btn::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -411,35 +414,36 @@ footer {
     border-radius: 10px;
     transition: 0.5s;
     transition-delay: 0.5;
-  }
-  
-  .container .btn:hover::after {
+}
+
+.container .btn:hover::after {
     top: 0;
     height: 50%;
     width: 80%;
     border-radius: 30px;
-  }
-  
-  .container .btn:nth-child(1)::before,
-  
-  .container .btn:nth-child(1)::after {
+}
+
+.container .btn:nth-child(1)::before,
+
+.container .btn:nth-child(1)::after {
     background: #ff0c65;
     box-shadow: 0 0 5px #ff1f71, 0 0 15px #ff1f71, 0 0 30px #ff1f71, 0 0 60px #ff1f71;
-  }
-  
-  .container .btn:nth-child(2)::before,
-  .container .btn:nth-child(2)::after {
+}
+
+.container .btn:nth-child(2)::before,
+.container .btn:nth-child(2)::after {
     background: #1e21f8;
     box-shadoW: 0 0 5px #1e21f8, 0 0 15px #2db2ff, 0 0 30px #2db2ff,
-      0 0 60px #2db2ff;
-  }
-  
-  .container .btn:nth-child(3)::before,
-  .container .btn:nth-child(3)::after {
+        0 0 60px #2db2ff;
+}
+
+.container .btn:nth-child(3)::before,
+.container .btn:nth-child(3)::after {
     background: #ff1e1e;
     box-shadow: 0 0 5px #ff1e1e, 0 0 15px #ff1e1e, 0 0 30px #ff1e1e,
-      0 0 6px #ff1e1e;
-  }
+        0 0 6px #ff1e1e;
+}
+
 .nosotrosContenedor {
     background-color: white;
     color: $color-primario;
@@ -454,10 +458,10 @@ footer {
 
 .nosotrosContenedor {
     img {
-    height: 25%;
-    width: 25%;
+        height: 25%;
+        width: 25%;
 
-}
+    }
 }
 
 .titleN {
